@@ -6,6 +6,27 @@
 <form action="student-response.jsp">
     <p>First Name <input type="text" placeholder="Your First Name" name="firstName" ></p>
     <p>Last Name <input type="text" placeholder="Your Last Name" name="lastName"></p>
+    <p>Country
+        <select name="country">
+            <option>Brazil</option>
+            <option selected>India</option>
+            <option>France</option>
+            <option>Germany</option>
+            <option>USA</option>
+            <option>Australia</option>
+        </select>
+    </p> <br>
+    <p>Favourite Programming Language:</p>
+    <input type="radio" name="favouriteLanguage" value="Java"> Java
+    <input type="radio" name="favouriteLanguage" value="C#"> C#
+    <input type="radio" name="favouriteLanguage" value="C" checked> C
+    <input type="radio" name="favouriteLanguage" value="C++"> C++
+    <br> <br>
+    <p>Favourite Subject:</p>
+    <input type="checkbox" name="favouriteFood" value="Pizza"> Pizza
+    <input type="checkbox" name="favouriteFood" value="Burger"> Burger
+    <input type="checkbox" name="favouriteFood" value="Chhole Bhature"> Chhole Bhature
+    <input type="checkbox" name="favouriteFood" value="Pao Bhaji" checked> Pao Bhaji
     <p><input type="submit" name="submitButton" value="Submit"></p>
 </form>
 </body>

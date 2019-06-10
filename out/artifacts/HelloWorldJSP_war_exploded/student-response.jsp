@@ -12,5 +12,16 @@
 </head>
 <body>
 The student is confirmed: ${param.firstName} ${param.lastName}
+<br>
+The student's country: ${param.country}
+<br>
+The student's favourite programming language: ${param.favouriteLanguage}
+<br>
+The student's favourite food: <%String[] langs=request.getParameterValues("favouriteFood");
+                                for(String s:langs)
+                                {
+                                    out.println("<li>"+s+"</li>");
+                                }
+                                %>
 </body>
 </html>
