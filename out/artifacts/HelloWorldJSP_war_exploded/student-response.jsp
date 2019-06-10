@@ -18,10 +18,12 @@ The student's country: ${param.country}
 The student's favourite programming language: ${param.favouriteLanguage}
 <br>
 The student's favourite food: <%String[] langs=request.getParameterValues("favouriteFood");
+                                if(langs!=null)
+                                {
                                 for(String s:langs)
                                 {
                                     out.println("<li>"+s+"</li>");
-                                }
+                                }}
                                 %>
 </body>
 </html>
