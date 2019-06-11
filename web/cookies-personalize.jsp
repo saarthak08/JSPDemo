@@ -1,4 +1,5 @@
-<%--
+<%@ page import="java.net.URLEncoder" %>
+<%@ page import="java.nio.charset.StandardCharsets" %><%--
   Created by IntelliJ IDEA.
   User: saarthak08
   Date: 2019-06-11
@@ -13,6 +14,7 @@
 <body>
     <%
         String favLang=request.getParameter("favouriteLanguage");
+        favLang = URLEncoder.encode(favLang, StandardCharsets.UTF_8);
         Cookie cookie=new Cookie("favouriteLanguageCookie",favLang);
         cookie.setMaxAge(60*60*24*365);
         response.addCookie(cookie);

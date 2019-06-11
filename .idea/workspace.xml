@@ -7,13 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7128f681-a2ed-4269-b6e6-b9c4f34ccdb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/cookies-homepage.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/cookies-personalize-form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/cookies-personalize.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/session-tracking.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/session-tracking.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/Uses-of-class-in-JSP.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/uses-of-class-in-JSP.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/session-tracking.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/session-tracking.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cookies-homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cookies-homepage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cookies-personalize-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/cookies-personalize-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/cookies-personalize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/cookies-personalize.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/cookies-personalize-form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -48,17 +45,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/cookies-personalize.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+            <state relative-caret-position="225">
+              <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/cookies-homepage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="182">
+              <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -104,9 +101,9 @@
         <option value="$PROJECT_DIR$/web/student-response.jsp" />
         <option value="$PROJECT_DIR$/web/session-tracking.html" />
         <option value="$PROJECT_DIR$/web/session-tracking.jsp" />
-        <option value="$PROJECT_DIR$/web/cookies-personalize-form.html" />
-        <option value="$PROJECT_DIR$/web/cookies-homepage.jsp" />
         <option value="$PROJECT_DIR$/web/cookies-personalize.jsp" />
+        <option value="$PROJECT_DIR$/web/cookies-homepage.jsp" />
+        <option value="$PROJECT_DIR$/web/cookies-personalize-form.html" />
       </list>
     </option>
   </component>
@@ -368,18 +365,18 @@
       <workItem from="1560055129448" duration="245000" />
       <workItem from="1560144719456" duration="557000" />
       <workItem from="1560186828584" duration="410000" />
-      <workItem from="1560226475992" duration="4495000" />
+      <workItem from="1560226475992" duration="5032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20092000" />
+    <option name="totallyTimeSpent" value="20629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,14 +387,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3263889" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3263889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3287483" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29444444" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29444444" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -511,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/student-response.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/uses-of-class-in-JSP.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -525,24 +515,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/cookies-personalize-form.html">
+    <entry file="file://$PROJECT_DIR$/web/student-response.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="-4">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/cookies-personalize.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
+        <state relative-caret-position="225">
+          <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/cookies-homepage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        <state relative-caret-position="182">
+          <caret line="22" column="62" lean-forward="true" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cookies-personalize-form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="66" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
         </state>
       </provider>
     </entry>
