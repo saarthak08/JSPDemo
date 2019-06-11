@@ -9,7 +9,7 @@
 <form action="session-tracking.jsp">
     <p>Add New Item <input type="text" name="todolistitem"> <input type="submit" ></p></form>
     <hr>
-    <p>Item Entered: <%=request.getParameter("todolistitem")%></p>
+    <p>Item Entered: <%request.getParameter("todolistitem");%></p>
     <%
         List<String> todolistitems=(List<String>)session.getAttribute("mytodolistitem");
         if(todolistitems==null)
@@ -18,7 +18,7 @@
             session.setAttribute("mytodolistitem",todolistitems);
         }
         String myItem=request.getParameter("todolistitem");
-        if(myItem!=null)
+        if(myItem!=null&&!myItem.trim().equals(""))
         {
             todolistitems.add(myItem);
         }
