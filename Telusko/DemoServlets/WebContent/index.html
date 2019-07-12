@@ -5,12 +5,15 @@
 <title>Welcome</title>
 </head>
 <body>
-	Hello World
+	Hello World!
+	<br><br>
 	
-	<form action="add" method="get">
+	<form method="get">
 		Enter 1st number: <input type="text" name="num1"><br>
-		Enter 2nd number: <input type="text" name="num2"><br>
-		<input type="submit" value="Submit">
+		Enter 2nd number: <input type="text" name="num2"><br><br>
+		<input type="submit" formaction="addrd" value="Submit via RequestDispatcher">
+		<input type="submit" formaction="addsr" value="Submit via SendRedirect">
 	</form>
+
 </body>
 </html>

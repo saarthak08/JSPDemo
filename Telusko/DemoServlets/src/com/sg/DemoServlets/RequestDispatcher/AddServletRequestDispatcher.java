@@ -1,4 +1,4 @@
-package com.sg.DemoServlets;
+package com.sg.DemoServlets.RequestDispatcher;
 
 import java.io.IOException;
 
@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-public class AddServlet extends HttpServlet {
+public class AddServletRequestDispatcher extends HttpServlet {
 	
 	public void doGet(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws ServletException, IOException {
 		int i=Integer.parseInt(httpServletRequest.getParameter("num1"));
@@ -24,12 +24,10 @@ public class AddServlet extends HttpServlet {
 			e.printStackTrace();
 		}*/
 		
-		//SessionManagement
-		httpServletRequest.setAttribute("k", k);
-		
+		httpServletRequest.setAttribute("k", k);		
 		
 		//RequestDispatcher
-		RequestDispatcher requestDispatcher=httpServletRequest.getRequestDispatcher("sq");
+		RequestDispatcher requestDispatcher=httpServletRequest.getRequestDispatcher("sqrd");
 		requestDispatcher.forward(httpServletRequest, httpServletResponse);
 	}
 
