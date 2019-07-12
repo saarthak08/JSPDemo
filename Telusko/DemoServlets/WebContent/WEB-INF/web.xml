@@ -4,9 +4,17 @@
  		<servlet-name>abc</servlet-name>
 		<servlet-class>com.sg.DemoServlets.AddServlet</servlet-class>
  	</servlet>
+ 	<servlet>
+ 		<servlet-name>pqr</servlet-name>
+ 		<servlet-class>com.sg.DemoServlets.SquareServlet</servlet-class>
+ 	</servlet>
  	
  	<servlet-mapping>
  		<servlet-name>abc</servlet-name>
  		<url-pattern>/add</url-pattern>
+ 	</servlet-mapping>
+ 	<servlet-mapping>
+ 		<servlet-name>pqr</servlet-name>
+ 		<url-pattern>/sq</url-pattern>
  	</servlet-mapping>
 </web-app>
