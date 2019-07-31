@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.CookieStore;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -40,7 +41,10 @@ public class SquareServletSendRedirect extends HttpServlet {
 		writer.println("Resultant square: "+k);
 		
 		//session.removeAttribute("k");
-		
+
+		ServletContext context=getServletContext();
+		String phone=context.getInitParameter("Phone");
+		writer.println("Hi, you are using a phone of "+phone);
 	}
 
 }
