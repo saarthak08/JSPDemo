@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
- 	<servlet>
+
+	<!-- Also known as Deployment Descriptor-->
+
+	<servlet>
  		<servlet-name>abcrd</servlet-name>
 		<servlet-class>com.sg.DemoServlets.RequestDispatcher.AddServletRequestDispatcher</servlet-class>
  	</servlet>
@@ -13,6 +16,8 @@
 			<param-value>Stark</param-value>
 		</init-param>
  	</servlet>
+
+	<!--
  	<servlet>
  		<servlet-name>abcsr</servlet-name>
 		<servlet-class>com.sg.DemoServlets.SendRedirect.AddServletSendRedirect</servlet-class>
@@ -20,25 +25,25 @@
  	<servlet>
  		<servlet-name>pqrsr</servlet-name>
  		<servlet-class>com.sg.DemoServlets.SendRedirect.SquareServletSendRedirect</servlet-class>
- 	</servlet>
+ 	</servlet>   -->
  	
  	
  	<servlet-mapping>
  		<servlet-name>abcrd</servlet-name>
  		<url-pattern>/addrd</url-pattern>
  	</servlet-mapping>
- 	<servlet-mapping>
+ 	<!-- <servlet-mapping>
  		<servlet-name>abcsr</servlet-name>
  		<url-pattern>/addsr</url-pattern>
- 	</servlet-mapping>
+ 	</servlet-mapping>  -->
  	<servlet-mapping>
  		<servlet-name>pqrrd</servlet-name>
  		<url-pattern>/sqrd</url-pattern>
  	</servlet-mapping>
- 	<servlet-mapping>
+ <!--	<servlet-mapping>
  		<servlet-name>pqrsr</servlet-name>
  		<url-pattern>/sqsr</url-pattern>
- 	</servlet-mapping>
+ 	</servlet-mapping>  -->
 
 
 	<context-param>
