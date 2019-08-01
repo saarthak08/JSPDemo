@@ -11,6 +11,8 @@
     <title>Declaration-Test</title>
 </head>
 <body>
+
+    <!-- All the declaration code goes to the declartion part of the servlet created of the jsp page.-->
 <%! String toLowerCase(String data)
 {
     return data.toLowerCase();

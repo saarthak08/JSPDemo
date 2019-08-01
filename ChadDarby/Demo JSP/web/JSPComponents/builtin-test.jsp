@@ -10,6 +10,7 @@
 <head>
     <title>Builtin-Test</title>
 </head>
+    <!-- These are the built-in tags created in JSP-->
 <body>
 Request User Agents:<%=request.getHeader("User-Agent")%>
 <br>

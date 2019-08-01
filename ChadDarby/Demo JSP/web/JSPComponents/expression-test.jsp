@@ -4,6 +4,8 @@
         <title>Expression-Test</title>
     </head>
     <body>
+
+    <!-- Expression part basically is an argument to the method out.println() in the servlet-->
     Converting a string to upper case: <%=new String("Hello World").toUpperCase()%>
     <br>
     25 multiplied by 4 equals to:<%=25*4%>
