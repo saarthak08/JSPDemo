@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!-- This is the directive part of the JSP which includes the Import statements of the Servlet code to which the
-JSP page is ultimately converted.-->
+JSP page is ultimately converted.
+    @include tag is used to include any other pages in the current JSP page
+    @taglib is used to create custom tags in jsp.
+-->
 
 
 <html>
