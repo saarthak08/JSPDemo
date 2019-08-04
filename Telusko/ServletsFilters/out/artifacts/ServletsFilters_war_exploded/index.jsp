@@ -13,8 +13,10 @@
   </head>
   <body>
   <h1>Hello</h1>
-  <%
-    int i=9/0;
-  %>
+  <form action="addAlien">
+    <input type="text" name="aid"><br><br>
+    <input type="text" name="aname"><br><br><br>
+    <input type="submit" value="OK">
+  </form>
   </body>
 </html>
