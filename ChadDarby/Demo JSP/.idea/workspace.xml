@@ -6,20 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7128f681-a2ed-4269-b6e6-b9c4f34ccdb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sg/jsp/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/JSTL/Inbuilt/core-tags.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/builtin-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/builtin-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/declaration-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/declaration-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/expression-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/expression-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/scriplet-test.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/HelloWorldJSP_war_exploded/JSPComponents/scriplet-test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cookies/cookies-homepage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Cookies/cookies-homepage.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cookies/cookies-personalize-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/Cookies/cookies-personalize-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/cookies/cookies-personalize.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Cookies/cookies-personalize.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Telusko/ServletsFilters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Telusko/ServletsFilters/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7128f681-a2ed-4269-b6e6-b9c4f34ccdb3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/JSTL/Inbuilt/forEachStudentTest.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+            <state relative-caret-position="408">
+              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -493,15 +480,16 @@
       <workItem from="1564910661964" duration="1509000" />
       <workItem from="1565184125109" duration="64000" />
       <workItem from="1566284872920" duration="5392000" />
-      <workItem from="1566393929731" duration="2207000" />
+      <workItem from="1566393929731" duration="3305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33336000" />
+    <option name="totallyTimeSpent" value="34434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31831187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -514,14 +502,14 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3263889" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3263889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3287483" />
       <window_info anchor="bottom" id="Messages" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.29444444" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.29444444" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -754,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/JSTL/Inbuilt/forEachStudentTest.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        <state relative-caret-position="408">
+          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
         </state>
       </provider>
     </entry>

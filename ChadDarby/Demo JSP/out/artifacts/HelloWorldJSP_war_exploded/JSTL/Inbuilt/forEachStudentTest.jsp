@@ -36,16 +36,30 @@
     <tr>
         <td>${tempStudent.firstName}</td>
         <td>${tempStudent.secondName}</td>
-        <td>${tempStudent.goldCustomer}</td>
+
+        <td>
+             <%--   <c:if test="${tempStudent.goldCustomer}">
+                    Special Discount
+                </c:if>
+                <c:if test="${not tempStudent.goldCustomer}">
+                    -
+                </c:if>
+            --%>
+            <!-- Alternative way to do this.-->
+            <c:choose>
+               <c:when test="${tempStudent.goldCustomer}">
+                   Special Discount
+               </c:when>
+                <c:otherwise>
+                    -
+                </c:otherwise>
+            </c:choose>
+        </td>
     </tr>
 
 </c:forEach>
 
 </table>
-
-
-
-
 
 </body>
 </html>
