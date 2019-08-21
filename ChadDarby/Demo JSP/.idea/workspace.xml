@@ -51,11 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/JSTL/Inbuilt/forEachStudentTest.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/JSTL/Inbuilt/function-test.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -112,6 +121,7 @@
         <option value="$PROJECT_DIR$/web/JSTL/Inbuilt/core-tags.jsp" />
         <option value="$PROJECT_DIR$/src/com/sg/jsp/Student.java" />
         <option value="$PROJECT_DIR$/web/JSTL/Inbuilt/forEachStudentTest.jsp" />
+        <option value="$PROJECT_DIR$/web/JSTL/Inbuilt/function-test.jsp" />
       </list>
     </option>
   </component>
@@ -480,18 +490,18 @@
       <workItem from="1564910661964" duration="1509000" />
       <workItem from="1565184125109" duration="64000" />
       <workItem from="1566284872920" duration="5392000" />
-      <workItem from="1566393929731" duration="3305000" />
+      <workItem from="1566393929731" duration="4594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34434000" />
+    <option name="totallyTimeSpent" value="35723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31831187" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31831187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -742,8 +752,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/JSTL/Inbuilt/forEachStudentTest.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="53" column="21" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="120">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/JSTL/Inbuilt/function-test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
         </state>
       </provider>
     </entry>
