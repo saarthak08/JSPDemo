@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel.properties" />
+    <file url="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel_de_DE.properties" />
+    <file url="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel_es_ES.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel_de_DE.properties" />
+      <file value="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel_es_ES.properties" />
+      <base-name>myLabel</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel.properties" />
+      <file value="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel_de_DE.properties" />
+      <file value="file://$PROJECT_DIR$/src/com/sg/jsp/i8n/resources/myLabel_es_ES.properties" />
+      <base-name>myLabel</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
