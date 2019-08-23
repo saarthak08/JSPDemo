@@ -19,7 +19,7 @@ public class SquareServletRequestDispatcher extends HttpServlet {
 		k=k*k;
 		writer.println("Resultant square: "+k);
 
-		ServletContext context=getServletContext();   //Servlet Context is common to all Servlets. There is only one servlet config
+		ServletContext context=getServletContext();   //Servlet Context is common to all Servlets. There is only one servlet context
 		String name=context.getInitParameter("Name");  //for all Servlets.
 		writer.println("Hi "+name);
 

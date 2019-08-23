@@ -7,12 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a1245da-bf23-465b-b349-f945c6afe4a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ServletsFilters/.idea/libraries/javax_annotation.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServletsFilters/src/MyServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletsFilters/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletsFilters/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletsFilters/ServletsFilters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletsFilters/ServletsFilters.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletsFilters/out/artifacts/ServletsFilters_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletsFilters/out/artifacts/ServletsFilters_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ServletsFilters/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ServletsFilters/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ChadDarby/Demo JSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ChadDarby/Demo JSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ChadDarby/Demo JSP/src/com/sg/jsp/Servlets/ReadingFormData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ChadDarby/Demo JSP/src/com/sg/jsp/Servlets/ReadingFormData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -27,20 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" column="132" selection-start-line="21" selection-start-column="132" selection-end-line="21" selection-end-column="132" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -99,11 +87,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/com/sg/DemoServlets/SendRedirect/AddServletSendRedirect.java" />
         <option value="$PROJECT_DIR$/src/com/sg/DemoServlets/SendRedirect/SquareServletSendRedirect.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/home.jsp" />
+        <option value="$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java" />
       </list>
     </option>
   </component>
@@ -128,7 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,13 +138,33 @@
             <path>
               <item name="DemoServlets" type="b2602c69:ProjectViewProjectNode" />
               <item name="DemoServlets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DemoServlets" type="462c0819:PsiDirectoryNode" />
+              <item name="RequestDispatcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoServlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoServlets" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DemoServlets" type="462c0819:PsiDirectoryNode" />
+              <item name="SendRedirect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoServlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoServlets" type="462c0819:PsiDirectoryNode" />
               <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoServlets" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoServlets" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,16 +292,18 @@
       <workItem from="1564680651640" duration="485000" />
       <workItem from="1564738898125" duration="1042000" />
       <workItem from="1564900554992" duration="139000" />
+      <workItem from="1566528027701" duration="74000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9865000" />
+    <option name="totallyTimeSpent" value="9939000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="813" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -347,23 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sg/DemoServlets/SendRedirect/AddServletSendRedirect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -378,6 +371,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/AddServletRequestDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -385,10 +385,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        <state relative-caret-position="420">
+          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sg/DemoServlets/RequestDispatcher/SquareServletRequestDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="132" selection-start-line="21" selection-start-column="132" selection-end-line="21" selection-end-column="132" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
