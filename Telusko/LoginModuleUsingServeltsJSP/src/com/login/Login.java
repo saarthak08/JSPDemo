@@ -16,11 +16,14 @@ public class Login extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String uname=req.getParameter("uname");
         String pwd=req.getParameter("pwd");
-        if(uname.equals("Saarthak")&&pwd.equals("123")){
-            resp.sendRedirect("welcome.jsp");
-        }
-        else{
-            resp.sendRedirect("login.jsp");
+        if(uname!=null||pwd!=null) {
+            if (uname.equals("Saarthak") && pwd.equals("123")) {
+                HttpSession session = req.getSession();
+                session.setAttribute("uname", uname);
+                resp.sendRedirect("welcome.jsp");
+            } else {
+                resp.sendRedirect("login.jsp");
+            }
         }
     }
 

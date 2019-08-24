@@ -11,6 +11,26 @@
     <title>Welcome</title>
 </head>
 <body>
-        Welcome! <%=session.getAttribute("uname")%>
+    <%
+        if(session.getAttribute("uname")==null){
+            response.sendRedirect("login.jsp");
+        }
+    %>
+    <h2>Welcome</h2>
+    <hr>
+        Hey! <%=session.getAttribute("uname")%> Welcome to the Login Module
+    <br>
+    <br>
+    <a href="videos.jsp">Go to Videos!</a>
+    <br>
+    <br>
+    <a href="about-us.jsp">About us</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="Logout" method="get">
+        <input type="submit" value="Log Out">
+    </form>
 </body>
 </html>
