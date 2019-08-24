@@ -20,5 +20,9 @@
         <br><br>
         <input type="submit" value="Login">
     </form>
+    <br>
+    <br>
+    <br>
+    <a href="about-us.jsp">About us</a>
 </body>
 </html>

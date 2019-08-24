@@ -12,6 +12,7 @@
 </head>
 <body>
 <%
+    response.setHeader("Cache-Control","no-cache, no-store, must-revalidate");
     if(session.getAttribute("uname")==null){
         response.sendRedirect("login.jsp");
     }
@@ -21,9 +22,13 @@
 <hr>
 <p>Hey <%=session.getAttribute("uname")%>! Here are your videos.</p>
 <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S-ezhTXPVGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
+<br>
+<br>
+<br>
 <br>
 <a href="about-us.jsp">About us</a>
-<br>
 <br>
 <br>
 <br>

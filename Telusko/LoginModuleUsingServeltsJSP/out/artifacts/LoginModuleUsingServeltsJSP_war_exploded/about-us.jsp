@@ -22,9 +22,5 @@
 <br>
 <br>
 <br>
-<br>
-<form action="Logout" method="get">
-    <input type="submit" value="Log Out">
-</form>
 </body>
 </html>
