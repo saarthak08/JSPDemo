@@ -1,6 +1,7 @@
 package com.login;
 
-import javax.servlet.ServletContext;
+import com.login.utils.LoginDao;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -16,14 +17,19 @@ public class Login extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String uname=req.getParameter("uname");
         String pwd=req.getParameter("pwd");
+        LoginDao loginDao=new LoginDao();
         if(uname!=null||pwd!=null) {
-            if (uname.equals("Saarthak") && pwd.equals("123")) {
-                HttpSession session = req.getSession();
-                session.setAttribute("uname", uname);
-                resp.sendRedirect("welcome.jsp");
-            } else {
+            if (loginDao.check(uname, pwd)) {
+                    HttpSession session = req.getSession();
+                    session.setAttribute("uname", uname);
+                    resp.sendRedirect("welcome.jsp");
+                }
+            else{
                 resp.sendRedirect("login.jsp");
             }
+            }
+        else {
+            resp.sendRedirect("login.jsp");
         }
     }
 
